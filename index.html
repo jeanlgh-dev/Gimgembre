@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gingembre – Jus Frais & Boissons Chaudes | Louvain-la-Neuve</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">
+        <div class="logo-icon">🫚</div>
+        <span>Gingembre</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#smoothies">Smoothies</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="blob blob1"></div>
+      <div class="blob blob2"></div>
+      <div class="blob blob3"></div>
+    </div>
+
+    <!-- Floating fruits -->
+    <div class="fruit-field" id="fruitField">
+      <span class="fruit f1">🍓</span>
+      <span class="fruit f2">🫐</span>
+      <span class="fruit f3">🥭</span>
+      <span class="fruit f4">🍊</span>
+      <span class="fruit f5">🍋</span>
+      <span class="fruit f6">🥥</span>
+      <span class="fruit f7">🍌</span>
+      <span class="fruit f8">🫚</span>
+      <span class="fruit f9">🍎</span>
+      <span class="fruit f10">🥝</span>
+      <span class="fruit f11">🍇</span>
+      <span class="fruit f12">🥕</span>
+    </div>
+
+    <div class="hero-content">
+      <p class="hero-eyebrow">🌿 Louvain-la-Neuve</p>
+      <h1 class="hero-title">
+        Booste ta<br />
+        <span class="gradient-text">journée</span>
+      </h1>
+      <p class="hero-subtitle">Jus frais · Smoothies · Boissons chaudes<br />Des saveurs qui font du bien, de l'énergie au quotidien.</p>
+      <div class="hero-ctas">
+        <a href="#smoothies" class="btn btn-primary">Découvrir nos boissons</a>
+        <a href="#menu" class="btn btn-ghost">Voir le menu</a>
+      </div>
+      <div class="hero-badges">
+        <span class="badge">✨ Sans sucres ajoutés</span>
+        <span class="badge">🌱 Ingrédients frais</span>
+        <span class="badge">⚡ Préparé sur place</span>
+      </div>
+    </div>
+
+    <div class="hero-cup">
+      <div class="cup-glow"></div>
+      <div class="cup-emoji">🥤</div>
+      <div class="splash-rings">
+        <div class="ring r1"></div>
+        <div class="ring r2"></div>
+        <div class="ring r3"></div>
+      </div>
+    </div>
+
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- SMOOTHIES CAROUSEL -->
+  <section class="smoothies-section" id="smoothies">
+    <div class="section-header">
+      <span class="section-tag">Nos stars</span>
+      <h2>Les Smoothies</h2>
+      <p>Faits minute, avec amour et sans compromis.</p>
+    </div>
+
+    <div class="carousel-scene" id="carouselScene">
+      <div class="carousel-3d" id="carousel3d">
+
+        <div class="card-wrap" data-pos="front">
+          <div class="smoothie-card front">
+            <div class="card-glow" style="--glow: #ff6b8a"></div>
+            <div class="card-img-wrap">
+              <div class="card-fruits">
+                <span>🍓</span><span>🫐</span><span>🍌</span><span>🍇</span>
+              </div>
+              <div class="card-cup" style="background: linear-gradient(160deg,#ff9eae,#e83e6c)">🥤</div>
+              <div class="card-splash" style="--c:#ff6b8a"></div>
+            </div>
+            <div class="card-body">
+              <h3>Le Mix Berry</h3>
+              <p>Fraise · Myrtille · Banane · Framboise</p>
+              <div class="card-tags">
+                <span class="tag" style="background:#ff6b8a22;color:#e83e6c">Doux</span>
+                <span class="tag" style="background:#8a2be222;color:#8a2be2">Antioxydant</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-wrap" data-pos="right">
+          <div class="smoothie-card right">
+            <div class="card-glow" style="--glow: #f5a623"></div>
+            <div class="card-img-wrap">
+              <div class="card-fruits">
+                <span>🥕</span><span>🍊</span><span>🍋</span><span>🫚</span>
+              </div>
+              <div class="card-cup" style="background: linear-gradient(160deg,#ffd270,#f5a623)">🥤</div>
+              <div class="card-splash" style="--c:#f5a623"></div>
+            </div>
+            <div class="card-body">
+              <h3>Le Rayon de Soleil</h3>
+              <p>Gingembre · Curcuma · Carotte · Orange · Citron</p>
+              <div class="card-tags">
+                <span class="tag" style="background:#f5a62322;color:#c07800">Piquant</span>
+                <span class="tag" style="background:#f5a62322;color:#c07800">Immunité</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-wrap" data-pos="back">
+          <div class="smoothie-card back">
+            <div class="card-glow" style="--glow: #f0a500"></div>
+            <div class="card-img-wrap">
+              <div class="card-fruits">
+                <span>🥭</span><span>🍌</span><span>🍈</span><span>🫚</span>
+              </div>
+              <div class="card-cup" style="background: linear-gradient(160deg,#ffe066,#f0a500)">🥤</div>
+              <div class="card-splash" style="--c:#f0a500"></div>
+            </div>
+            <div class="card-body">
+              <h3>Le Mango Punch</h3>
+              <p>Mangue · Banane · Fruit de la passion · Gingembre</p>
+              <div class="card-tags">
+                <span class="tag" style="background:#f0a50022;color:#b37800">Doux</span>
+                <span class="tag" style="background:#f0a50022;color:#b37800">Énergie</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-wrap" data-pos="left">
+          <div class="smoothie-card left">
+            <div class="card-glow" style="--glow: #4caf50"></div>
+            <div class="card-img-wrap">
+              <div class="card-fruits">
+                <span>🥬</span><span>🥑</span><span>🍎</span><span>🌿</span>
+              </div>
+              <div class="card-cup" style="background: linear-gradient(160deg,#a8e063,#4caf50)">🥤</div>
+              <div class="card-splash" style="--c:#4caf50"></div>
+            </div>
+            <div class="card-body">
+              <h3>Le Popeye</h3>
+              <p>Épinard · Avocat · Pomme · Dattes · Granola</p>
+              <div class="card-tags">
+                <span class="tag" style="background:#4caf5022;color:#2e7d32">Gourmand</span>
+                <span class="tag" style="background:#4caf5022;color:#2e7d32">Protéines</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /carousel-3d -->
+
+      <div class="carousel-controls">
+        <button class="ctrl-btn" id="prevBtn" aria-label="Précédent">&#8592;</button>
+        <div class="carousel-dots" id="carouselDots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+        <button class="ctrl-btn" id="nextBtn" aria-label="Suivant">&#8594;</button>
+      </div>
+    </div><!-- /carousel-scene -->
+
+    <!-- Also visible: L'Optimiste -->
+    <div class="extra-smoothie">
+      <div class="smoothie-card extra-card">
+        <div class="card-glow" style="--glow:#ffd600"></div>
+        <div class="card-img-wrap">
+          <div class="card-fruits"><span>🍓</span><span>🍊</span><span>🍌</span><span>🍈</span></div>
+          <div class="card-cup" style="background:linear-gradient(160deg,#ffe566,#ffd600)">🥤</div>
+          <div class="card-splash" style="--c:#ffd600"></div>
+        </div>
+        <div class="card-body">
+          <h3>L'Optimiste</h3>
+          <p>Fraise · Banane · Orange · Pomme · Fruit de la passion</p>
+          <div class="card-tags">
+            <span class="tag" style="background:#ffd60022;color:#b39600">Doux</span>
+            <span class="tag" style="background:#ffd60022;color:#b39600">Vitamine C</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU SECTION -->
+  <section class="menu-section" id="menu">
+    <div class="menu-bg-shape"></div>
+    <div class="section-header light">
+      <span class="section-tag">La carte</span>
+      <h2>Notre Menu</h2>
+      <p>Tout préparé sur place, sans sucres ajoutés.</p>
+    </div>
+
+    <div class="menu-tabs" role="tablist">
+      <button class="menu-tab active" data-tab="piquant" role="tab">🌶️ Piquant</button>
+      <button class="menu-tab" data-tab="aromatique" role="tab">🌿 Aromatique</button>
+      <button class="menu-tab" data-tab="doux" role="tab">🍓 Doux</button>
+      <button class="menu-tab" data-tab="gourmand" role="tab">🍫 Gourmand</button>
+      <button class="menu-tab" data-tab="chaud" role="tab">☕ Chaud</button>
+    </div>
+
+    <div class="menu-panels">
+
+      <div class="menu-panel active" id="tab-piquant">
+        <div class="menu-grid">
+          <div class="menu-item">
+            <div class="item-name">Rayon de Soleil</div>
+            <div class="item-desc">Gingembre, curcuma, carotte, orange, citron, poivre noir</div>
+            <div class="item-price"><span>5,00€</span> <span class="price-grand">8,90€</span></div>
+          </div>
+          <div class="menu-item">
+            <div class="item-name">Or Jaune</div>
+            <div class="item-desc">Mangue, ananas, citron, gingembre, curcuma, lait de coco</div>
+            <div class="item-price"><span>5,00€</span> <span class="price-grand">8,90€</span></div>
+          </div>
+          <div class="menu-item">
+            <div class="item-name">Mango Punch</div>
+            <div class="item-desc">Mangue, fruit de la passion, banane, pomme, gingembre</div>
+            <div class="item-price"><span>5,00€</span> <span class="price-grand">8,90€</span></div>
+          </div>
+          <div class="menu-item">
+            <div class="item-name">Pepe Émeraude</div>
+            <div class="item-desc">Concombre, poire, banane, citron, gingembre</div>
+            <div class="item-price"><span>5,00€</span> <span class="price-grand">8,90€</span></div>
+          </div>
+          <div class="menu-item">
+            <div class="item-name">Ginger Rose</div>
+            <div class="item-desc">Betteraves, framboise, pomme, gingembre</div>
+            <div class="item-price"><span>5,00€</span> <span class="price-grand">8,90€</span></div>
+          </div>
+          <div class="menu-item">
+            <div class="item-name">Rubis Tonic</div>
+            <div class="item-desc">Fraise, grenade, banana, citron vert, gingembre</div>
+            <div class="item-price"><span>5,00€</span> <span class="price-grand">8,90€</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-panel" id="tab-aromatique">
+        <div class="menu-grid">
+          <div class="menu-item">
+            <div class="item-name">Matcha &amp; Coco-Mango <span class="badge-new">+1,00€</span></div>
+            <div class="item-desc">Matcha, mangue, banane, miel, lait d'amande et lait de coco</div>
+            <div class="item-price"><span>4,90€</span> <span class="price-grand">5,70€</span></div>
+          </div>
+          <div class="menu-item">
+            <div class="item-name">Électron Libre</div>
+            <div class="item-desc">Fenouil, menthe, gingembre, citron vert, miel</div>
+            <div class="item-price"><span>4,90€</span> <span class="price-grand">5,70€</span></div>
+          </div>
+          <div class="menu-item">
+            <div class="item-name">Délice de Crète</div>
+            <div class="item-desc">Fraise, basile, banane, citron vert, yaourt</div>
+            <div class="item-price"><span>4,90€</span> <span class="price-grand">5,70€</span></div>
+          </div>
+          <div class="menu-item">
+            <div class="item-name">Dolce Vita</div>
+            <div class="item-desc">Fraise, basilic, banane, citron vert</div>
+            <div class="item-price"><span>4,90€</span> <span class="price-grand">5,70€</span></div>
+          </div>
+          <div class="menu-item">
+            <div class="item-name">Rouge Hibiscus <span class="badge-new">+1,00€</span></div>
+            <div class="item-desc">Hibiscus, fraise, framboise, myrtilles, yaourt, miel</div>
+            <div class="item-price"><span>4,90€</span> <span class="price-grand">5,70€</span></div>
+          </div>
+          <div class="menu-item">
+            <div class="item-name">Agrume Détox</div>
+            <div class="item-desc">Pamplemousse, romarin, orange, pomme, gingembre</div>
+            <div class="item-price"><span>4,90€</span> <span class="price-grand">5,70€</span></div>
+          </div>
+          <div class="menu-item">
+            <div class="item-name">Myrtille-Zen</div>
+            <div class="item-desc">Myrtilles, lavande, yaourt, lait d'amande, miel</div>
+            <div class="item-price"><span>4,90€</span> <span class="price-grand">5,70€</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-panel" id="tab-doux">
+        <div class="menu-grid">
+          <div class="menu-item">
+            <div class="item-name">Kiwina</div>
+            <div class="item-desc">Kiwi, épinard, banane, ananas</div>
+            <div class="item-price"><span>4,60€</span> <span class="price-grand">5,40€</span></div>
+          </div>
+          <div class="menu-item">
+            <div class="item-name">L'Optimiste</div>
+            <div class="item-desc">Fraise, banane, orange, pomme, fruit passion</div>
+            <div class="item-price"><span>4,60€</span> <span class="price-grand">5,40€</span></div>
+          </div>
+          <div class="menu-item">
+            <div class="item-name">Mix Berry</div>
+            <div class="item-desc">Fraise, framboise, myrtilles, banane</div>
+            <div class="item-price"><span>4,60€</span> <span class="price-grand">5,40€</span></div>
+          </div>
+          <div class="menu-item">
+            <div class="item-name">Doux Rêve</div>
+            <div class="item-desc">Poire, banane, raisin, myrtille</div>
+            <div class="item-price"><span>4,60€</span> <span class="price-grand">5,40€</span></div>
+          </div>
+          <div class="menu-item">
+            <div class="item-name">Détox de Printemps</div>
+            <div class="item-desc">Kiwi, épinard, citron, myrtilles, poire, citron vert, miel</div>
+            <div class="item-price"><span>4,60€</span> <span class="price-grand">5,40€</span></div>
+          </div>
+          <div class="menu-item">
+            <div class="item-name">P'tit Rouge</div>
+            <div class="item-desc">Cerise, pomme, banane</div>
+            <div class="item-price"><span>4,60€</span> <span class="price-grand">5,40€</span></div>
+          </div>
+          <div class="menu-item">
+            <div class="item-name">Triple P</div>
+            <div class="item-desc">Pêche, poire, pomme</div>
+            <div class="item-price"><span>4,60€</span> <span class="price-grand">5,40€</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-panel" id="tab-gourmand">
+        <div class="menu-grid">
+          <div class="menu-item">
+            <div class="item-name">Popeye</div>
+            <div class="item-desc">Banane, épinard, avocat, pomme, miel, lait entier, dattes, granola</div>
+            <div class="item-price"><span>6,40€</span> <span class="price-grand">6,60€</span></div>
+          </div>
+          <div class="menu-item">
+            <div class="item-name">Pomme de Jade</div>
+            <div class="item-desc">Pomme, ananas, yaourt, cannelle, cardamome, noix, caramel</div>
+            <div class="item-price"><span>6,40€</span> <span class="price-grand">6,60€</span></div>
+          </div>
+          <div class="menu-item">
+            <div class="item-name">Ginger Peach</div>
+            <div class="item-desc">Pêche, yaourt, gingembre, extrait de vanille, abricot sec, granola</div>
+            <div class="item-price"><span>6,40€</span> <span class="price-grand">6,60€</span></div>
+          </div>
+          <div class="menu-item">
+            <div class="item-name">Délice Forêt-Noire</div>
+            <div class="item-desc">Cerise, lait, yaourt, amande, graines de chia, cacao poudre, miel</div>
+            <div class="item-price"><span>6,40€</span> <span class="price-grand">6,60€</span></div>
+          </div>
+          <div class="menu-item">
+            <div class="item-name">Délice Choco-Noisette</div>
+            <div class="item-desc">Banane, lait d'amande, cacao, noisettes, datte, carré de chocolat</div>
+            <div class="item-price"><span>6,40€</span> <span class="price-grand">6,60€</span></div>
+          </div>
+          <div class="menu-item">
+            <div class="item-name">Milkshakes</div>
+            <div class="item-desc">Au choix: Fraise / Banane / Mangue / Framboise / Cacao en poudre et carré de chocolat, glace vanille, lait entier</div>
+            <div class="item-price"><span>6,40€</span> <span class="price-grand">6,60€</span></div>
+          </div>
+          <div class="menu-item">
+            <div class="item-name">Frappucino</div>
+            <div class="item-desc">Espresso, lait entier, glaçons, sirop au choix, chantilly</div>
+            <div class="item-price"><span>6,40€</span> <span class="price-grand">6,60€</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-panel" id="tab-chaud">
+        <div class="menu-grid">
+          <div class="menu-item">
+            <div class="item-name">Sahlep ⭐</div>
+            <div class="item-desc">Boisson traditionnelle du moyen orient à base de racines d'orchidées sauvages, lait, cardamome, curcuma, cannelle et noix de coco râpée</div>
+            <div class="item-price"><span>4,60€</span> <span class="price-grand">5,50€</span></div>
+          </div>
+          <div class="menu-item">
+            <div class="item-name">Karak Chaï ⭐</div>
+            <div class="item-desc">Boisson traditionnelle à base de thé noir, lait, cardamome, curcuma, gingembre, anis et cannelle</div>
+            <div class="item-price"><span>4,60€</span> <span class="price-grand">5,50€</span></div>
+          </div>
+          <div class="menu-item">
+            <div class="item-name">Matcha Latte</div>
+            <div class="item-desc">Chaud ou froid</div>
+            <div class="item-price"><span>6,10€</span></div>
+          </div>
+          <div class="menu-item">
+            <div class="item-name">Latte Macchiato</div>
+            <div class="item-desc">+ sirop au choix: gingembre, caramel, noisette, vanille</div>
+            <div class="item-price"><span>3,80€</span></div>
+          </div>
+          <div class="menu-item">
+            <div class="item-name">Thé à la menthe fraîche, gingembre et citron</div>
+            <div class="item-desc"></div>
+            <div class="item-price"><span>4,60€</span></div>
+          </div>
+          <div class="menu-item">
+            <div class="item-name">Karkadé</div>
+            <div class="item-desc">Infusion de fleurs d'hibiscus</div>
+            <div class="item-price"><span>3,80€</span></div>
+          </div>
+          <div class="menu-item">
+            <div class="item-name">Cappuccino / Espresso / Lungo</div>
+            <div class="item-desc"></div>
+            <div class="item-price"><span>2,60€ – 3,00€</span></div>
+          </div>
+          <div class="menu-item">
+            <div class="item-name">Chocolat chaud</div>
+            <div class="item-desc">Lait chaud et pépites de chocolat</div>
+            <div class="item-price"><span>3,80€</span></div>
+          </div>
+        </div>
+        <div class="extras-box">
+          <h4>Extras +0,90€</h4>
+          <p>Gingembre · Granola · Dattes · Miel · Graines de chia · Noix · Amandes</p>
+        </div>
+        <div class="extras-box">
+          <h4>Jus Solo ou Duo</h4>
+          <p>Petit 35cl → 3,90€ &nbsp;|&nbsp; Grand 45cl → 4,70€<br/>Orange, pomme, carotte, citron ou betterave</p>
+        </div>
+      </div>
+
+    </div><!-- /menu-panels -->
+
+    <p class="menu-note">🥤 Petit = 35cl &nbsp;|&nbsp; Grand = 45cl &nbsp;&nbsp;·&nbsp;&nbsp; Tout est fait maison, avec amour ❤️</p>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about-section" id="about">
+    <div class="about-inner">
+      <div class="about-text">
+        <span class="section-tag">Notre histoire</span>
+        <h2>Healthy &amp; Gourmand</h2>
+        <p>Chez Gingembre, on croit que bien se nourrir ne doit jamais être ennuyeux. Chaque boisson est préparée sur place, avec des ingrédients frais sélectionnés avec soin — sans sucres ajoutés, sans compromis sur le goût.</p>
+        <p>Que ce soit pour démarrer ta journée, faire une pause ou te faire du bien, on a la boisson qu'il te faut.</p>
+        <div class="about-pills">
+          <span>🫚 Gingembre frais</span>
+          <span>🌿 Sans additifs</span>
+          <span>🥭 Fruits de saison</span>
+          <span>☀️ Fait minute</span>
+        </div>
+      </div>
+      <div class="about-visual">
+        <div class="hours-card">
+          <h3>🕐 Horaires d'ouverture</h3>
+          <ul class="hours-list">
+            <li><span>Lundi</span><span>13h – 18h</span></li>
+            <li><span>Mardi</span><span>9h – 18h</span></li>
+            <li><span>Mercredi</span><span>9h – 18h</span></li>
+            <li><span>Jeudi</span><span>9h – 18h</span></li>
+            <li><span>Vendredi</span><span>9h – 18h</span></li>
+            <li><span>Samedi</span><span>9h – 18h</span></li>
+            <li><span>Dimanche</span><span>13h – 18h</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact-section" id="contact">
+    <div class="section-header">
+      <span class="section-tag">Nous trouver</span>
+      <h2>Contact &amp; Localisation</h2>
+    </div>
+
+    <div class="contact-inner">
+      <div class="contact-info">
+        <div class="info-card">
+          <div class="info-icon">📍</div>
+          <div>
+            <h4>Adresse</h4>
+            <p>Rue Charlemagne 1<br/>1348 Louvain-la-Neuve</p>
+          </div>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">📱</div>
+          <div>
+            <h4>Téléphone</h4>
+            <p><a href="tel:+32000000000">+32 (0)000 000 000</a></p>
+          </div>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">📸</div>
+          <div>
+            <h4>Instagram</h4>
+            <p><a href="https://instagram.com/gingembre.lln" target="_blank" rel="noopener">@gingembre.lln</a></p>
+          </div>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">👥</div>
+          <div>
+            <h4>Facebook</h4>
+            <p><a href="https://facebook.com/GingembreLLN" target="_blank" rel="noopener">Gingembre LLN</a></p>
+          </div>
+        </div>
+
+        <a class="btn btn-primary btn-block" href="https://maps.google.com/?q=Rue+Charlemagne+1,+1348+Louvain-la-Neuve" target="_blank" rel="noopener">
+          🗺️ Ouvrir dans Google Maps
+        </a>
+      </div>
+
+      <div class="map-embed">
+        <iframe
+          title="Gingembre LLN sur Google Maps"
+          src="https://maps.google.com/maps?q=Rue+Charlemagne+1,+1348+Louvain-la-Neuve,+Belgium&output=embed"
+          width="100%"
+          height="380"
+          style="border:0;border-radius:20px;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="logo-icon large">🫚</div>
+        <span>Gingembre</span>
+        <p>Jus frais &amp; Boissons chaudes<br/>Louvain-la-Neuve</p>
+      </div>
+      <div class="footer-links">
+        <a href="#smoothies">Smoothies</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">À propos</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-social">
+        <a href="https://instagram.com/gingembre.lln" target="_blank" rel="noopener" class="social-btn">📸 Instagram</a>
+        <a href="https://facebook.com/GingembreLLN" target="_blank" rel="noopener" class="social-btn">👥 Facebook</a>
+      </div>
+    </div>
+    <p class="footer-copy">© 2025 Gingembre LLN · Fait avec ❤️ à Louvain-la-Neuve</p>
+  </footer>
+
+  <!-- POP BURST overlay -->
+  <div class="burst-container" id="burstContainer"></div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
